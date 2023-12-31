@@ -8,3 +8,9 @@ This application will be built using React for the frontend and will refresh the
 
 Display the price data on the web page with clear labeling. The design should be clean and responsive (mobile-friendly).
 The code should be clear and well-documented with comments.
+
+## Stack
+- TypeScript
+- React
+- Vite
+- TailwindCSS
