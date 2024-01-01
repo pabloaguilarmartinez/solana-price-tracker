@@ -18,3 +18,5 @@ The code should be clear and well-documented with comments.
 ## Considerations
 Since CoinGecko's API is returning 429 if we request every 10 seconds, I have decided to request every 15 seconds. 
 This manner there is no issue with the API.
+
+The web is up and running on: (https://pam-solana-price-tracker.vercel.app/)[https://pam-solana-price-tracker.vercel.app/]
