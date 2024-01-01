@@ -14,3 +14,7 @@ The code should be clear and well-documented with comments.
 - React
 - Vite
 - TailwindCSS
+
+## Considerations
+Since CoinGecko's API is returning 429 if we request every 10 seconds, I have decided to request every 15 seconds. 
+This manner there is no issue with the API.
