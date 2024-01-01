@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes colorPriceRise {
+    0% {
+        color: #16c784;
+    }
+    100% {
+        color: white;
+    }
+}
+
+.animate-color-rise {
+    animation: colorPriceRise 4s linear 0s 1 normal forwards running;
+}
+
+@keyframes colorPriceFall {
+    0% {
+        color: #ea3943;
+    }
+    100% {
+        color: white;
+    }
+}
+
+.animate-color-fall {
+    animation: colorPriceFall 4s linear 0s 1 normal forwards running;
+}
